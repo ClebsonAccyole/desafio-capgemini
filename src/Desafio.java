@@ -5,6 +5,8 @@ import java.util.regex.Pattern;
 
 public class Desafio {
 	
+	// Desafio do degrau
+	
 	public static String desafioDegraus(int qtdDegraus) {
 		String degrau = "";
 		StringBuilder escada = new StringBuilder();
@@ -25,6 +27,8 @@ public class Desafio {
 		
 		return escada.toString();
 	}
+	
+	// Desafio da senha forte
 	
 	public static int desafioSenhaForte(String senhaForte) throws Exception {
 		int numeroEtapasValidas = 0;
@@ -68,6 +72,8 @@ public class Desafio {
 			}
 		}
 	}
+	
+	// Desafio do Anagrama
 	
 	public static int imprimeAnagramas(String palavra) {
 			List<String> resultado = new ArrayList<String>();
